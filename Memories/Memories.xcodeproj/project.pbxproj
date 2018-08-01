@@ -64,19 +64,35 @@
 		10BA0087211240FA005F3618 /* Memories */ = {
 			isa = PBXGroup;
 			children = (
-				10BA009E21124FF0005F3618 /* OnboardingViewController.swift */,
+				10BA00A721126F8B005F3618 /* Model and Model Controllers */,
+				10BA00A621126F7B005F3618 /* View Controllers */,
 				10BA0088211240FA005F3618 /* AppDelegate.swift */,
-				10BA009A2112411A005F3618 /* Memory.swift */,
-				10BA009C2112419E005F3618 /* MemoryController.swift */,
-				10BA008C211240FA005F3618 /* Main.storyboard */,
 				10BA00A421125B2D005F3618 /* LocalNotificationHelper.swift */,
-				10BA00A2211252A0005F3618 /* MemoryDetailViewController.swift */,
-				10BA00A0211251EE005F3618 /* MemoriesTableViewController.swift */,
+				10BA008C211240FA005F3618 /* Main.storyboard */,
 				10BA008F211240FB005F3618 /* Assets.xcassets */,
 				10BA0091211240FB005F3618 /* LaunchScreen.storyboard */,
 				10BA0094211240FB005F3618 /* Info.plist */,
 			);
 			path = Memories;
+			sourceTree = "<group>";
+		};
+		10BA00A621126F7B005F3618 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10BA009E21124FF0005F3618 /* OnboardingViewController.swift */,
+				10BA00A2211252A0005F3618 /* MemoryDetailViewController.swift */,
+				10BA00A0211251EE005F3618 /* MemoriesTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		10BA00A721126F8B005F3618 /* Model and Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10BA009A2112411A005F3618 /* Memory.swift */,
+				10BA009C2112419E005F3618 /* MemoryController.swift */,
+			);
+			path = "Model and Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
