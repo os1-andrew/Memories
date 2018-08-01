@@ -2,7 +2,7 @@
 //  MemoriesTableViewController.swift
 //  Memories
 //
-//  Created by Andrew Dhan on 8/1/18.
+//  Created by Andrew Liao on 8/1/18.
 //  Copyright © 2018 Andrew Liao. All rights reserved.
 //
 

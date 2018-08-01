@@ -16,6 +16,7 @@
 		10BA009F21124FF0005F3618 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA009E21124FF0005F3618 /* OnboardingViewController.swift */; };
 		10BA00A1211251EE005F3618 /* MemoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA00A0211251EE005F3618 /* MemoriesTableViewController.swift */; };
 		10BA00A3211252A0005F3618 /* MemoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA00A2211252A0005F3618 /* MemoryDetailViewController.swift */; };
+		10BA00A521125B2D005F3618 /* LocalNotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA00A421125B2D005F3618 /* LocalNotificationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		10BA009E21124FF0005F3618 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		10BA00A0211251EE005F3618 /* MemoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewController.swift; sourceTree = "<group>"; };
 		10BA00A2211252A0005F3618 /* MemoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDetailViewController.swift; sourceTree = "<group>"; };
+		10BA00A421125B2D005F3618 /* LocalNotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				10BA009A2112411A005F3618 /* Memory.swift */,
 				10BA009C2112419E005F3618 /* MemoryController.swift */,
 				10BA008C211240FA005F3618 /* Main.storyboard */,
+				10BA00A421125B2D005F3618 /* LocalNotificationHelper.swift */,
 				10BA00A2211252A0005F3618 /* MemoryDetailViewController.swift */,
 				10BA00A0211251EE005F3618 /* MemoriesTableViewController.swift */,
 				10BA008F211240FB005F3618 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				10BA00A3211252A0005F3618 /* MemoryDetailViewController.swift in Sources */,
 				10BA009B2112411A005F3618 /* Memory.swift in Sources */,
 				10BA009F21124FF0005F3618 /* OnboardingViewController.swift in Sources */,
+				10BA00A521125B2D005F3618 /* LocalNotificationHelper.swift in Sources */,
 				10BA00A1211251EE005F3618 /* MemoriesTableViewController.swift in Sources */,
 				10BA009D2112419E005F3618 /* MemoryController.swift in Sources */,
 				10BA0089211240FA005F3618 /* AppDelegate.swift in Sources */,

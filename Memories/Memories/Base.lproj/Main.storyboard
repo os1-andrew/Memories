@@ -41,7 +41,6 @@
                                         <state key="normal" title="Get Started!"/>
                                         <connections>
                                             <action selector="finishOnboarding:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5N-Ui-EsQ"/>
-                                            <action selector="getStarted:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q5K-66-RHh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -56,7 +55,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="F6j-aL-w3f" kind="presentation" id="Pfu-Hd-yLv"/>
+                        <segue destination="F6j-aL-w3f" kind="presentation" identifier="AccessGranted" id="Pfu-Hd-yLv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -127,6 +126,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfE-A8-Pac">
                                         <rect key="frame" x="0.0" y="189.5" width="343" height="30"/>
                                         <state key="normal" title="Add Photo"/>
+                                        <connections>
+                                            <action selector="addPhoto:" destination="kiQ-a5-cgr" eventType="touchUpInside" id="OKU-48-Bbw"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fvT-gY-wUc">
                                         <rect key="frame" x="0.0" y="227.5" width="343" height="30"/>
@@ -161,6 +163,11 @@
                     <navigationItem key="navigationItem" title="Title" id="rUE-EL-08n">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="Zen-a8-lnS"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="due-Cp-hQK" id="vpp-lP-grB"/>
+                        <outlet property="notesField" destination="I7g-CH-MSP" id="vTW-Z4-3BF"/>
+                        <outlet property="titleLabel" destination="fvT-gY-wUc" id="d8V-eC-sYd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SzX-jB-osN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
