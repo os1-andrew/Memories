@@ -23,6 +23,7 @@ class MemoryDetailViewController: UIViewController, UIImagePickerControllerDeleg
             imageView.image = UIImage(data: memory.imageData)
             titleLabel.text = memory.title
             notesField.text = memory.bodyText
+            addPhotoButton.setTitle("Change Photo", for: .normal)
             
         } else {
             self.title = "Add Memory"
@@ -80,6 +81,7 @@ class MemoryDetailViewController: UIViewController, UIImagePickerControllerDeleg
     
     @IBOutlet weak var notesField: UITextView!
     
+    @IBOutlet weak var addPhotoButton: UIButton!
     var memory: Memory?
     var memoryController: MemoryController?
 }

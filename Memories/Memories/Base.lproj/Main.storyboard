@@ -168,6 +168,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addPhotoButton" destination="OfE-A8-Pac" id="4FM-KH-IKR"/>
                         <outlet property="imageView" destination="due-Cp-hQK" id="vpp-lP-grB"/>
                         <outlet property="notesField" destination="I7g-CH-MSP" id="vTW-Z4-3BF"/>
                         <outlet property="titleLabel" destination="fvT-gY-wUc" id="d8V-eC-sYd"/>
