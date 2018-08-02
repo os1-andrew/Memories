@@ -161,7 +161,11 @@
                         <viewLayoutGuide key="safeArea" id="9Tl-91-1Vx"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="rUE-EL-08n">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Zen-a8-lnS"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Zen-a8-lnS">
+                            <connections>
+                                <action selector="save:" destination="kiQ-a5-cgr" id="JC0-zV-7N4"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="imageView" destination="due-Cp-hQK" id="vpp-lP-grB"/>

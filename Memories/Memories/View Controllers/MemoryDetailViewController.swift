@@ -23,6 +23,7 @@ class MemoryDetailViewController: UIViewController, UIImagePickerControllerDeleg
             imageView.image = UIImage(data: memory.imageData)
             titleLabel.text = memory.title
             notesField.text = memory.bodyText
+            
         } else {
             self.title = "Add Memory"
         }
@@ -57,6 +58,20 @@ class MemoryDetailViewController: UIViewController, UIImagePickerControllerDeleg
                 }
             }
         }
+    }
+    @IBAction func save(_ sender: Any) {
+        guard let image = imageView.image,
+            let title = titleLabel.text,
+            let bodyText = notesField.text,
+            let imageData = UIImagePNGRepresentation(image) else {return}
+        
+        
+        if let memory = memory {
+            memoryController?.update(for: memory, title: title, bodyText: bodyText, imageData: imageData)
+        } else {
+            memoryController?.createMemory(withTitle: title, bodyText: bodyText, imageData: imageData)
+        }
+        navigationController?.popViewController(animated: true)
     }
     
     @IBOutlet weak var imageView: UIImageView!
